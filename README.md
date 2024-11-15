@@ -19,3 +19,17 @@ This Python script implements a simplified version of the PageRank algorithm to 
 - The number of iterations taken to reach convergence.
 - The final PageRank scores for each page in the network.
 - The highest-ranked page.
+
+
+# (2) PCA Dimensionality Reduction
+This Python script uses Principal Component Analysis (PCA) to reduce the dimensionality of a dataset containing height and weight measurements for 100 individuals. The PCA method captures the most significant variance in the data while simplifying its structure.
+
+**How It Works**
+- Compute the covariance matrix to understand how height and weight vary together.
+- Perform eigenvalue decomposition to identify the principal components that capture the most variance.
+- Projects the 2D data onto the first principal component, effectively reducing the dataset to 1D while retaining key variance.
+- 
+**Output**
+- The first principal component (corresponding to Weight) captures 55.74% of the variance.
+- The second principal component (corresponding to Height) captures 44.26% of the variance.
+- Visualization comparing the original 2D data and the 1D projection, saved as PCA_projection.png.
