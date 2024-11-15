@@ -19,6 +19,7 @@ dominant_index = np.argmax(eigenvalues.real)
 
 # Get the eigenvector corresponding to the largest eigenvalue (the dominant eigenvector)
 dominant_eigenvector = eigenvectors[:, dominant_index].real
+print("The dominant eigenvector of matrix M is: ", dominant_eigenvector)
 
 # Start with an initial rank vector v (of ones) so all pages have equal proability
 v = np.ones(4)
